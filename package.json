@@ -1,0 +1,25 @@
+{
+  "name": "@spacetime/nyc-historical-geocoder",
+  "version": "0.0.1",
+  "description": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "nyc-historical-geocoder": "index.js"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "dependencies": {
+    "@spacetime/nyc-street-normalizer": "github:nypl-spacetime/nyc-street-normalizer",
+    "fast-levenshtein": "^2.0.6",
+    "highland": "^2.11.1",
+    "lunr": "^2.1.4",
+    "minimist": "^1.2.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
